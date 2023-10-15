@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+nav a:hover {
+    background: linear-gradient(to left, pink, red);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.logo-text {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.profiles {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile p {
+    margin: 5px 0;
+    text-align: center;
+}
+
+.profile a img {
+    width: 25px;
+    height: 25px;
+}
+
+#about {
+    padding: 50px 0;
+}
